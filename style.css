@@ -1,6 +1,7 @@
 body{
     display: flex;
     justify-content: center;
+    
 }
 .download{
     display: flex;
@@ -9,15 +10,17 @@ body{
     justify-content: center;
 }
 .button{
-    border-radius: 15px;
+    border-radius: 10px;
     height: 45px;
     width: 150px;
     background-color: rgb(146, 223, 146);
     font-size: 18px;
+    font-weight: bold;
     display: flex;
     align-items: center;
     justify-content: center;
 }
+
 .button:hover{
     transform: scale(1.05);
     cursor: pointer;
@@ -27,5 +30,15 @@ a{
     color: black;
 }
 @media all and (max-width: 768px){
-
+img{
+    max-width:  300px;
+}
+h1{
+    font-size: 18px;
+}
+.button{
+    height: 30px;
+    width: 100px;
+    font-size: 14px;
+}
 }
